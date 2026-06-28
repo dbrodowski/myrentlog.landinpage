@@ -271,16 +271,20 @@ body {
 }
 
 .text-wrap h2 {
-  margin: 0 0 8px;
+  margin: 0 0 2px;
   font-size: 2rem;
 }
 
 .text-wrap p {
-  margin: 0 0 14px;
+  margin: 0;
 }
 
 .text-wrap p:last-child {
   margin-bottom: 0;
+}
+
+.text-wrap + .text-wrap {
+  margin-top: 28px;
 }
 
 .bottom-nav {
