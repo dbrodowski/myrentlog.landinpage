@@ -92,7 +92,7 @@ body {
 }
 
 .subheader {
-  background: var(--white);
+  background: var(--green);
   padding: 56px 0 46px;
   text-align: center;
 }
