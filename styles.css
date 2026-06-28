@@ -287,6 +287,39 @@ body {
   margin-top: 28px;
 }
 
+.cta-wrap {
+  margin-top: 24px;
+  text-align: center;
+}
+
+.cta-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background: var(--green);
+  color: var(--white);
+  text-decoration: none;
+  font-weight: 700;
+  font-size: clamp(0.95rem, 2.8vw, 1.05rem);
+  padding: 12px 20px;
+  border-radius: 12px;
+  width: min(100%, 340px);
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.cta-button:hover {
+  transform: translateY(-1px);
+  opacity: 0.95;
+}
+
+.cta-apple-icon {
+  width: 20px;
+  height: 20px;
+  fill: var(--white);
+  flex-shrink: 0;
+}
+
 .bottom-nav {
   background: var(--black);
 }
