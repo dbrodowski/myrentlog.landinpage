@@ -276,7 +276,7 @@ body {
 }
 
 .bottom-nav {
-  background: var(--green);
+  background: var(--black);
 }
 
 .bottom-nav-inner {
@@ -295,7 +295,7 @@ body {
 }
 
 .copyright {
-  background: var(--white);
+  background: var(--green);
   color: var(--black);
   text-align: center;
   padding: 14px 0 22px;
