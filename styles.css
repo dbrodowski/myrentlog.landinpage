@@ -116,7 +116,7 @@ body {
 }
 
 .subheader p {
-  margin: 6px auto 0;
+  margin: 12px auto 0;
   max-width: 620px;
   font-size: 1.05rem;
 }
@@ -271,8 +271,16 @@ body {
 }
 
 .text-wrap h2 {
-  margin-top: 0;
+  margin: 0 0 8px;
   font-size: 2rem;
+}
+
+.text-wrap p {
+  margin: 0 0 14px;
+}
+
+.text-wrap p:last-child {
+  margin-bottom: 0;
 }
 
 .bottom-nav {
