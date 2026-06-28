@@ -67,7 +67,7 @@ body {
   position: absolute;
   top: 64px;
   right: 4%;
-  background: var(--green);
+  background: var(--white);
   border: 1px solid rgba(0, 0, 0, 0.25);
   border-radius: 12px;
   padding: 10px;
