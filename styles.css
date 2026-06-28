@@ -44,6 +44,19 @@ body {
   font-size: 1.25rem;
 }
 
+.brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+}
+
+.site-logo {
+  width: 28px;
+  height: 28px;
+  object-fit: contain;
+}
+
 .hamburger {
   width: 42px;
   height: 42px;
