@@ -22,8 +22,8 @@ body {
 }
 
 .top-nav {
-  background: var(--green);
-  color: var(--white);
+  background: var(--white);
+  color: var(--black);
   position: sticky;
   top: 0;
   z-index: 20;
@@ -38,7 +38,7 @@ body {
 }
 
 .logo {
-  color: var(--white);
+  color: var(--black);
   text-decoration: none;
   font-weight: 700;
   font-size: 1.25rem;
@@ -47,7 +47,7 @@ body {
 .hamburger {
   width: 42px;
   height: 42px;
-  border: 1px solid rgba(255, 255, 255, 0.35);
+  border: 1px solid rgba(0, 0, 0, 0.35);
   border-radius: 8px;
   background: transparent;
   display: grid;
@@ -59,7 +59,7 @@ body {
 .hamburger span {
   width: 20px;
   height: 2px;
-  background: var(--white);
+  background: var(--black);
   display: block;
 }
 
@@ -68,7 +68,7 @@ body {
   top: 64px;
   right: 4%;
   background: var(--green);
-  border: 1px solid rgba(255, 255, 255, 0.25);
+  border: 1px solid rgba(0, 0, 0, 0.25);
   border-radius: 12px;
   padding: 10px;
   display: none;
@@ -77,14 +77,14 @@ body {
 
 .menu a {
   display: block;
-  color: var(--white);
+  color: var(--black);
   text-decoration: none;
   padding: 8px;
   border-radius: 8px;
 }
 
 .menu a:hover {
-  background: rgba(255, 255, 255, 0.12);
+  background: rgba(0, 0, 0, 0.12);
 }
 
 .menu.open {
@@ -120,7 +120,7 @@ body {
 }
 
 .feature-card {
-  border: 1px solid rgba(255, 255, 255, 0.2);
+  border: 1px solid rgba(0, 0, 0, 0.2);
   border-radius: 14px;
   padding: 16px;
   display: grid;
