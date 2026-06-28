@@ -152,104 +152,13 @@ body {
   padding: 16px;
 }
 
-.phone {
-  width: 170px;
-  min-height: 320px;
-  border: 2px solid rgba(255, 255, 255, 0.45);
-  border-radius: 28px;
-  background: linear-gradient(180deg, #141414, #090909);
-  padding: 12px 10px 10px;
-  box-shadow: 0 16px 34px rgba(0, 0, 0, 0.35);
-}
-
-.notch {
-  width: 62px;
-  height: 9px;
-  border-radius: 8px;
-  background: #222;
-  margin: 0 auto 10px;
-}
-
-.phone-content {
-  background: #fff;
+.screenshot-image {
+  width: min(100%, 240px);
+  height: auto;
+  max-height: 420px;
   border-radius: 18px;
-  min-height: 275px;
-  padding: 12px;
-  display: grid;
-  gap: 10px;
-}
-
-.ui-line {
-  height: 10px;
-  border-radius: 99px;
-  background: #d9d9d9;
-}
-
-.ui-line.short {
-  width: 58%;
-}
-
-.ui-card {
-  height: 64px;
-  border-radius: 12px;
-  background: linear-gradient(140deg, rgba(0, 134, 79, 0.16), rgba(0, 0, 0, 0.1));
-}
-
-.ui-chart {
-  height: 86px;
-  border-radius: 12px;
-  background: linear-gradient(180deg, rgba(0, 134, 79, 0.2), rgba(0, 134, 79, 0.02));
-  position: relative;
-  overflow: hidden;
-}
-
-.ui-chart::after {
-  content: "";
-  position: absolute;
-  inset: auto 8px 12px;
-  height: 38px;
-  border-left: 2px solid rgba(0, 134, 79, 0.5);
-  border-bottom: 2px solid rgba(0, 134, 79, 0.5);
-}
-
-.ui-row {
-  display: flex;
-  gap: 8px;
-}
-
-.ui-row span {
-  display: block;
-  height: 32px;
-  flex: 1;
-  border-radius: 10px;
-  background: rgba(0, 134, 79, 0.17);
-}
-
-.avatar-wrap {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
-
-.avatar {
-  width: 36px;
-  height: 36px;
-  border-radius: 50%;
-  background: rgba(0, 134, 79, 0.3);
-}
-
-.ui-pill {
-  height: 36px;
-  border-radius: 999px;
-  background: rgba(0, 0, 0, 0.12);
-}
-
-.screen-two .phone-content {
-  background: linear-gradient(180deg, #ffffff, #f7fffb);
-}
-
-.screen-three .phone-content {
-  background: linear-gradient(180deg, #ffffff, #f8f8f8);
+  object-fit: contain;
+  box-shadow: 0 14px 30px rgba(0, 0, 0, 0.28);
 }
 
 .feature-text h2 {
