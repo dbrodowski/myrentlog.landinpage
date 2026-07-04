@@ -101,6 +101,16 @@ body {
   background: rgba(0, 0, 0, 0.12);
 }
 
+.menu .sign-in-link {
+  background: var(--green);
+  color: var(--black);
+}
+
+.menu .sign-in-link:hover {
+  background: var(--green);
+  color: var(--white);
+}
+
 .menu.open {
   display: block;
 }
