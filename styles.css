@@ -113,8 +113,7 @@ body {
 }
 
 .menu.open {
-  display: inline-flex;
-  flex-direction: column;
+  display: inline-block;
 }
 
 .subheader {
