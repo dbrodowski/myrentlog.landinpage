@@ -87,7 +87,9 @@ body {
   border-radius: 12px;
   padding: 10px;
   display: none;
+  width: fit-content;
   min-width: 160px;
+  white-space: nowrap;
 }
 
 .menu a {
