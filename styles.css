@@ -87,9 +87,7 @@ body {
   border-radius: 12px;
   padding: 10px;
   display: none;
-  width: fit-content;
   min-width: 160px;
-  white-space: nowrap;
 }
 
 .menu a {
@@ -115,7 +113,8 @@ body {
 }
 
 .menu.open {
-  display: block;
+  display: inline-flex;
+  flex-direction: column;
 }
 
 .subheader {
