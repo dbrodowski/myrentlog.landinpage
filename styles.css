@@ -154,14 +154,14 @@ body {
 }
 
 .screenshot {
-  min-height: 420px;
+  min-height: 0;
   border-radius: 12px;
   background: radial-gradient(circle at 20% 20%, rgba(255, 255, 255, 0.18), rgba(0, 0, 0, 0.2)),
     linear-gradient(145deg, rgba(255, 255, 255, 0.1), rgba(0, 134, 79, 0.45));
   border: 1px solid rgba(255, 255, 255, 0.35);
   display: grid;
   place-items: start center;
-  padding: 0 10px 10px;
+  padding: 0;
 }
 
 .screenshot-image {
@@ -400,7 +400,7 @@ body {
 
 @media (max-width: 849px) {
   .screenshot {
-    min-height: 360px;
+    min-height: 0;
   }
 
   .screenshot-image {
