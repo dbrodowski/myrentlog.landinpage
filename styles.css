@@ -213,6 +213,11 @@ body {
   text-align: center;
 }
 
+.cta-wrap-top {
+  margin-top: 0;
+  margin-bottom: 12px;
+}
+
 .cta-button {
   display: inline-flex;
   align-items: center;
