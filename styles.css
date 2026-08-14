@@ -154,7 +154,7 @@ body {
 }
 
 .screenshot {
-  min-height: 260px;
+  min-height: 320px;
   border-radius: 12px;
   background: radial-gradient(circle at 20% 20%, rgba(255, 255, 255, 0.18), rgba(0, 0, 0, 0.2)),
     linear-gradient(145deg, rgba(255, 255, 255, 0.1), rgba(0, 134, 79, 0.45));
@@ -165,9 +165,9 @@ body {
 }
 
 .screenshot-image {
-  width: min(100%, 240px);
+  width: min(100%, 320px);
   height: auto;
-  max-height: 420px;
+  max-height: 520px;
   border-radius: 18px;
   object-fit: contain;
   box-shadow: 0 14px 30px rgba(0, 0, 0, 0.28);
