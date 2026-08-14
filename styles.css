@@ -160,8 +160,8 @@ body {
     linear-gradient(145deg, rgba(255, 255, 255, 0.1), rgba(0, 134, 79, 0.45));
   border: 1px solid rgba(255, 255, 255, 0.35);
   display: grid;
-  place-items: center;
-  padding: 10px;
+  place-items: start center;
+  padding: 0 10px 10px;
 }
 
 .screenshot-image {
