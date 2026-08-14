@@ -46,3 +46,56 @@ function createCookieBanner() {
 if (localStorage.getItem(cookieConsentKey) === null) {
   createCookieBanner();
 }
+
+function setupScreenshotLightbox() {
+  const screenshots = Array.from(document.querySelectorAll(".screenshot-image"));
+  if (screenshots.length === 0) return;
+
+  const lightbox = document.createElement("div");
+  lightbox.className = "screenshot-lightbox";
+  lightbox.setAttribute("aria-hidden", "true");
+
+  const closeButton = document.createElement("button");
+  closeButton.type = "button";
+  closeButton.className = "lightbox-close";
+  closeButton.setAttribute("aria-label", "Close screenshot preview");
+  closeButton.textContent = "×";
+
+  const expandedImage = document.createElement("img");
+  expandedImage.alt = "";
+
+  lightbox.appendChild(closeButton);
+  lightbox.appendChild(expandedImage);
+  document.body.appendChild(lightbox);
+
+  const closeLightbox = () => {
+    lightbox.classList.remove("open");
+    lightbox.setAttribute("aria-hidden", "true");
+    expandedImage.removeAttribute("src");
+    expandedImage.removeAttribute("alt");
+  };
+
+  screenshots.forEach((image) => {
+    image.addEventListener("click", () => {
+      expandedImage.src = image.currentSrc || image.src;
+      expandedImage.alt = image.alt;
+      lightbox.classList.add("open");
+      lightbox.setAttribute("aria-hidden", "false");
+    });
+  });
+
+  closeButton.addEventListener("click", closeLightbox);
+  lightbox.addEventListener("click", (event) => {
+    if (event.target === lightbox) {
+      closeLightbox();
+    }
+  });
+
+  document.addEventListener("keydown", (event) => {
+    if (event.key === "Escape" && lightbox.classList.contains("open")) {
+      closeLightbox();
+    }
+  });
+}
+
+setupScreenshotLightbox();
