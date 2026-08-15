@@ -103,13 +103,21 @@ body {
 }
 
 .menu .sign-in-link {
-  background: var(--green);
+  background: linear-gradient(180deg, rgba(0, 134, 79, 1) 0%, rgba(0, 112, 67, 1) 100%);
   color: var(--white);
+  border-radius: 999px;
+  padding: 12px 18px;
+  margin-top: 6px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  text-align: center;
+  box-shadow: 0 12px 24px rgba(0, 134, 79, 0.22);
+  border: 1px solid rgba(0, 88, 52, 0.45);
 }
 
 .menu .sign-in-link:hover {
   background: var(--green);
-  color: var(--black);
+  color: var(--white);
 }
 
 .menu.open {
