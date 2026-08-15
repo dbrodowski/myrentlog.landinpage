@@ -104,7 +104,7 @@ body {
 
 .menu .sign-in-link {
   background: var(--green);
-  color: var(--black);
+  color: var(--white);
 }
 
 .menu .sign-in-link:hover {
