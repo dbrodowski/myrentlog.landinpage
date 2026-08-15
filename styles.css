@@ -109,7 +109,7 @@ body {
 
 .menu .sign-in-link:hover {
   background: var(--green);
-  color: var(--white);
+  color: var(--black);
 }
 
 .menu.open {
