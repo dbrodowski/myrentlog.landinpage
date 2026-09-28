@@ -307,6 +307,18 @@ body {
   opacity: 0.98;
 }
 
+.cta-note {
+  margin: 10px 0 0;
+  color: var(--white);
+  font-size: 0.85rem;
+  font-style: italic;
+  line-height: 1.4;
+}
+
+.cta-note-dark {
+  color: var(--black);
+}
+
 .bottom-nav {
   background: var(--black);
 }
